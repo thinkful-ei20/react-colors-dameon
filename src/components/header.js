@@ -4,16 +4,7 @@ import './header.css';
 
 
 export default function Header(){
-
-
-
-return(
-  <h1 className="center">Click a color to make it change</h1>
-)
-
-
-
-
-
-
+  return(
+    <h1 className="center">Click a color to make it change</h1>
+  )
 }
