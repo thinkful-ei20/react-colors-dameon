@@ -4,13 +4,11 @@ import './colorBoxes.css';
 
 export default function ColorBoxes(props){
 
-     let boxes = props.colors.map((color, index) =>
-    <button className="box"
-      onClick={()=>props.onClick(index)} 
-      style={{backgroundColor:color}}
-      key={index} index={index} >
-     </button>
-    )
+  let boxes = props.colors.map((color, index) =>
+    <button className="box" onClick={()=>props.onClick(index)} style={{backgroundColor:color}}
+      key={index} index={index}>
+    </button> )
+    
     return (
       <div>
         {boxes}
